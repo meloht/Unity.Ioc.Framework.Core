@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Unity.Ioc.Framework.Core.Test.Interface\Unity.Ioc.Framework.Core.Test.Interface.csproj" />
+    <ProjectReference Include="..\Unity.Ioc.Framework.Core\Unity.Ioc.Framework.Core.csproj" />
+  </ItemGroup>
+
+</Project>
