@@ -10,7 +10,7 @@ namespace Unity.Ioc.Framework.Core.Test
         public void TestMethod1()
         {
             ITestInterface service = ServiceLocator.GetInstance<ITestInterface>();
-
+            Assert.IsNotNull(service);
             service.TestMethod("Hello world!");
         }
     }
