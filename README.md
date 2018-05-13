@@ -30,8 +30,6 @@ Config name must be named "Unity.config" in root directory of project
       <add name="Unity.Ioc.Framework.Test.Implementation"/>
     </moduleAssemblies>
   </packing>
-  <startup>
-    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
-  </startup>
+ 
 </configuration>
 ```
