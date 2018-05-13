@@ -18,7 +18,7 @@ a unity framework extension for Microsoft.Practices.Unity  Support .NET Core/ ne
    service.TestMethod("Hello world!");
 ```
      
-# Config File
+# Config file
 Config name must be named "Unity.config" in root directory of project
 ```xml
 <configuration>
