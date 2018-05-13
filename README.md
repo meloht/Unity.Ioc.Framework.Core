@@ -23,11 +23,11 @@ Config name must be named "Unity.config" in root directory of project
 ```xml
 <configuration>
   <configSections>
-    <section name="packing" type="Unity.Ioc.Framework.Configuration.PackingSection,Unity.Ioc.Framework"/>
+    <section name="packing" type="Unity.Ioc.Framework.Core.Configuration.PackingSection,Unity.Ioc.Framework"/>
   </configSections>
   <packing>
     <moduleAssemblies>
-      <add name="Unity.Ioc.Framework.Test.Implementation"/>
+      <add name="Unity.Ioc.Framework.Core.Test.Implementation"/>
     </moduleAssemblies>
   </packing>
  
